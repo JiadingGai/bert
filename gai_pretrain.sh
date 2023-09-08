@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+BERT_BASE_DIR=cased_L-12_H-768_A-12
 /opt/homebrew/bin/python3.8 create_pretraining_data.py \
   --input_file=./sample_text.txt \
   --output_file=/tmp/tf_examples.tfrecord \
